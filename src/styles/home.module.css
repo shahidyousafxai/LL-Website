@@ -1,0 +1,144 @@
+/* Hero Section */
+.heroContainer {
+  background-image: url('../assets/hero1.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+}
+@media (max-width: 899px) {
+  .heroContainer {
+    background: transparent;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+  }
+}
+
+.tabBox {
+  border-radius: 0 12px 12px 12px;
+}
+.tab1 {
+  border-radius: 12px 0 0 0;
+  text-transform: capitalize !important;
+  margin: 1px;
+}
+
+/* Video Component*/
+.videoContainer {
+  background: url('../assets/video.jpg'), rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.imageabout {
+  width: 100%;
+  object-fit: contain;
+  height: unset;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+/* Storage Units*/
+.unitsImg {
+  width: 100%;
+  object-fit: contain;
+  height: unset;
+}
+
+/* Users Love Luxelocker Component*/
+.usersLoveLuxeLockerContainer {
+  background-image: url('../assets/bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (max-width: 768px) {
+  .usersLoveLuxeLockerContainer {
+    background-image: url('../assets/bg2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+/* Get Started Contaienr*/
+.getStartedContainer {
+  background-image: url('../assets/bgstarted.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 12px;
+}
+
+/* Blogs Component*/
+.blogRow {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  justify-content: flex-start;
+  gap: 20px;
+  padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.blog {
+  min-width: calc(32% - 20px);
+  flex: 1;
+  margin-right: 20px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+.blog:last-child {
+  margin-right: 0;
+}
+/* Blog Card For Blogs Page */
+.blogsPageBlogs {
+  /* min-width: calc(32% - 30px) !important; */
+  flex: 1;
+  margin-right: 20px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+.blogsPopularPost {
+  min-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .blog {
+    min-width: calc(50% - 20px);
+  }
+  .blogsPageBlogs {
+    min-width: calc(50% - 20px);
+  }
+}
+@media (max-width: 576px) {
+  .blog {
+    min-width: 100%;
+    margin-right: 0;
+  }
+  .blogsPageBlogs {
+    min-width: 100%;
+    margin-right: 0;
+  }
+}
+
+/* Search Inside Dropdown/ Component */
+.searchContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.searchContainer input {
+  outline: none;
+  background: transparent;
+  border: none;
+  font-size: 13px;
+  color: white;
+  font-family: 'Inter';
+  width: 100%;
+}
+
+/* Text Field Styles*/
+.inputFieldStyle {
+  border-radius: 12px;
+  /* background-color: #1e1f26 !important ; */
+  border-color: #cda950 !important;
+}

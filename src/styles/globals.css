@@ -1,0 +1,96 @@
+:root {
+  --bg-color: #0f1217;
+  --text-color: #ffffff;
+  --bg-secondary: #1e1f26;
+  --primary: #cda950;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+main {
+  margin-top: 100px !important;
+}
+/* width */
+::-webkit-scrollbar {
+  height: 3px;
+  width: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(133, 135, 141);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(194, 189, 189, 1);
+}
+.css-1g8gt0t-MuiFormHelperText-root.Mui-error {
+  position: absolute !important;
+  margin-top: 55px !important;
+  background-color: var(--bg-color) !important;
+  width: max-content !important;
+}
+
+/* Global CSS FOR MAP POPUP */
+.gm-style .gm-style-iw-c {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-color) !important;
+  height: max-content !important;
+  max-height: 180px !important;
+  width: 150px !important;
+  padding: 0 10px !important;
+}
+.gm-style .gm-style-iw-d {
+  background-color: var(--bg-secondary) !important;
+  overflow: hidden !important;
+}
+.gm-style .gm-style-iw-tc::after {
+  background-color: var(--bg-secondary) !important;
+}
+.gm-ui-hover-effect > span {
+  background-color: var(--primary) !important;
+  margin-top: 8px !important;
+  height: 16px !important;
+}
+/* Map Popup CSS */
+.map-popup-location {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.map-popup-location p {
+  padding: 0px;
+  margin: 0 !important;
+  font-family: Inter;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.map-popup-location p:first-child {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.map-popup-location p > span {
+  color: var(--text-color);
+  opacity: 0.5;
+}
+.map-popup-location button {
+  background-color: var(--primary);
+  color: var(--bg-secondary);
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 5px;
+}
+.map-popup-location button:hover {
+  background-color: #917737;
+}

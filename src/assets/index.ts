@@ -1,0 +1,23 @@
+const assets = {
+  logo: require('./logo.png'),
+  heroImg: require('./hero1.png'),
+  videoImg: require('./video.jpg'),
+  aboutImg: require('./about.jpg'),
+  unit1Img: require('./unit1.png'),
+  unit2Img: require('./unit2.png'),
+  unit3Img: require('./unit3.png'),
+  unit4Img: require('./unit4.png'),
+  formImg: require('./form.jpg'),
+  phoneImg: require('./getstartedphone.png'),
+  blogImg: require('./blogthumbnail.jpg'),
+  pin: require('./location.png'),
+  meet1: require('./team1.webp'),
+  meet2: require('./team2.webp'),
+  meet3: require('./team3.webp'),
+  meet4: require('./team4.webp'),
+  meet5: require('./team5.webp'),
+  meet6: require('./team6.webp'),
+  meet7: require('./team7.webp'),
+  meet8: require('./team8.webp'),
+};
+export default assets;
